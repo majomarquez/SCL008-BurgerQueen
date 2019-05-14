@@ -1,10 +1,10 @@
 import React from 'react';
 
-import logoBurger from './images/logo.png';
-import breakfastBurger from './images/desayuno.jpg';
-import lunchBurger from './images/almuerzo.jpg';
+import logoBurger from '../images/logo.png';
+import breakfastBurger from '../images/desayuno.jpg';
+import lunchBurger from '../images/almuerzo.jpg';
 
-class App extends React.Component{
+class Home extends React.Component{
     render(){
         
         return (
@@ -29,5 +29,3 @@ class App extends React.Component{
             </div> 
         )}
 }
-
-export default App;
