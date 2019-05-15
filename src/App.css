@@ -1,5 +1,7 @@
+body {
+  background: #1a1a1a;
+}
 .home {
-  background-color: #1a1a1a;
   color: white;
 }
 .home h1{
@@ -7,10 +9,14 @@
   text-align: center;
 }
 .home_logo{
-  width:25%;
-  margin: 2%;
+  width:55%;
+  margin: 10% 0% 16% 11%;
+}
+.name{
+  margin: 30% 0% 0% 0%;
+
 }
 .home_img_breakfast, .home_img_lunch { 
-  width: 40%;
+  width: 90%;
   margin: 2%;
 }
