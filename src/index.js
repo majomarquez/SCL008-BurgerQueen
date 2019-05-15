@@ -6,15 +6,8 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 
 
-const container = document.getElementById('root');
 
-ReactDOM.render(
-<App
-customer="Maja"
-breakfast = "Desayuno en Burguer Queen"
-lunch = "Almuerzo en Burguer Queen"
-/> , 
-container);// que y donde
+ReactDOM.render(<App/> , document.getElementById('root'));// que y donde
 
 
  serviceWorker.unregister();
