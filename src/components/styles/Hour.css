@@ -1,0 +1,14 @@
+body {
+    background: #1a1a1a;
+    color: white;
+}
+
+.home_img_breakfast, .home_img_lunch { 
+width: 90%;
+margin: 2%;
+}
+
+.home h1{
+    font-size: 24px;
+    text-align: center;
+}
